@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.aysen{
+    background-image: url('https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.aysen img{
+    width: 300px;
+}
+.aysen p{
+    font-size: 30px;
+    color: white;
+}
+.aysen button {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
